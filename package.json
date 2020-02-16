@@ -1,0 +1,28 @@
+{
+  "name": "brainjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "train": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/brainjs/index.ts",
+    "server": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.2",
+    "body-parser": "^1.19.0",
+    "brain.js": "^2.0.0-alpha.12",
+    "express": "^4.17.1",
+    "natural": "^0.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "ts-loader": "^6.2.1",
+    "tsint": "^1.0.1",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.1.0",
+    "typescript": "^3.7.5"
+  }
+}
